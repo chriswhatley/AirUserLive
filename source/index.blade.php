@@ -4,7 +4,7 @@
 
 	<main class="z-20">
 		
-		<section class="about-wbm relative bg-gray-800 bg-no-repeat bg-center lg:bg-left bg-contain text-white">      
+		<section class="relative bg-no-repeat bg-center lg:bg-left bg-contain text-gray-900">      
             <div class="container mx-auto px-10">
                 <div class="py-12 w-full lg:w-1/2 lg:pr-12">                                                                                          
                     <h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">
@@ -12,7 +12,7 @@
 	                </h2>                        
                     <p class="leading-relaxed">Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.</p>
                     <div class="mt-6">
-                    	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-red" rel="noopener">
+                    	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-blue" rel="noopener">
                             <div>Register Now</div>
                             <div>
                                 <svg class="fill-current text-white inline-block h-6 w-4">
@@ -32,11 +32,11 @@
 
         			<div class="w-full h-56 md:h-auto md:w-1/2 lg:w-1/4 bg-gray-400 bg-center bg-cover md:order-1" style="background-image: url(assets/img/why-visit-1-compressed.jpg);"></div>
 
-        			<div class="w-full md:w-1/2 lg:w-1/4 bg-red-500 p-10 md:order-2">
+        			<div class="w-full md:w-1/2 lg:w-1/4 bg-gray-800 p-10 md:order-2">
         				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Visit</h3> 
         				<p class="leading-relaxed">Widely regarded as a clean, safe energy source that can be readily used for a variety of different industrial purposes, there are however important issues associated with compressed air that users need to be well educated in.</p>
                         <p class="leading-relaxed">AirUser Live, with its carefully curated seminar programme will bring together experts in the field, companies at the forefront of product and technological developments, and a select audience of attendees to inform, educate, debate and network.</p>
-        				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-gray mt-4">
+        				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-blue mt-4">
         					<div>Find Out More</div>
         					<div>
         						<svg class="fill-current text-white inline-block h-6 w-4">
@@ -51,7 +51,7 @@
         			<div class="w-full md:w-1/2 lg:w-1/4 bg-gray-800 p-10 md:order-3 lg:order-4">
         				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Exhibit</h3> 
         				<p class="leading-relaxed">Secure your company's opportunity to engage with Warehouse, Logistics, Distribution, Operations, Production & Facilities Managers &amp; Directors, together with Buyers and Health &amp; Safety professionals looking to make informed decisions for their logistical processes.</p>
-        				<a href="{{ $page->resourcePath('/why-exhibit') }}" class="btn btn-red mt-10">
+        				<a href="{{ $page->resourcePath('/why-exhibit') }}" class="btn btn-blue mt-10">
         					<div>Find Out More</div>
         					<div>
         						<svg class="fill-current text-white inline-block h-6 w-4">
