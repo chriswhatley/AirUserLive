@@ -9,15 +9,19 @@
 
 .nav-item.selected,
 .nav-item:hover {
-	@apply border-red-600
+	@apply border-blue-500
 }
 
 .nav-item:visited {
 	@apply text-white border-gray-900
 }
 
+.nav-item:active {
+	@apply border-blue-500 text-white
+}
+
 .nav-item.selected {
-	@apply border-red-600
+	@apply border-blue-500
 }
 
 /* Main Nav Dropdown Menu Items */
@@ -26,7 +30,7 @@
 }
 
 .nav-dropdown-item:hover {
-	@apply text-white bg-red-500
+	@apply text-white bg-blue-500
 }
 
 /* Footer Nav Items*/
@@ -53,6 +57,10 @@
 	@apply bg-red-500
 }
 
+.btn-blue:visited {
+	@apply bg-blue-500
+}
+
 .btn-gray:visited {
 	@apply bg-gray-700
 }
@@ -73,8 +81,16 @@
 	@apply bg-red-500 
 }
 
+.btn-blue {
+	@apply bg-blue-500 
+}
+
 .btn-red:hover {
 	@apply bg-red-800
+}
+
+.btn-blue:hover {
+	@apply bg-blue-700
 }
 
 .btn-gray {

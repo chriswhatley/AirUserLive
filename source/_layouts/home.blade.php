@@ -14,21 +14,17 @@
             </div>
                
             <div class="container mx-auto">
-                <div class="flex px-5 pt-40 pb-24 md:flex-row flex-col items-center z-50">
-                    <div class="lg:flex-grow md:max-w-xl md:pr-16 flex flex-col md:items-start md:text-left md:ml-6 mb-16 md:mb-0 items-center text-center">
-                        <h1 class="text-3xl md:text-4xl uppercase font-semibold leading-tight tracking-tight mb-4 font-medium text-white">
-                            Welcome to the 
-                            <br class="hidden lg:inline-block">Tomorrow's Warehouse
-                            <br class="hidden lg:inline-block">Event
+                <div class="flex px-5 pt-32 lg:pt-48 pb-24 md:flex-row flex-col items-center z-50">
+                    <div class="lg:flex-grow md:max-w-xl md:pr-16 flex flex-col md:items-start md:text-left md:ml-6 mb-12 md:mb-0 items-center text-center">
+                        <h1 class="uppercase font-semibold leading-tight font-medium text-white">
+                            <span class="text-xl md:text-2xl lg:text-3xl tracking-tight">Welcome to</span>
+                            <span class="block md:-mt-2 lg:-mt-1 text-4xl md:text-5xl lg:text-6xl tracking-tighter">Air User Live</span>                            
                         </h1>
-                        <p class="mb-8 text-lg font-semibold leading-relaxed tracking-tight">
-                            9th June 2021                        
-                            <span class="hidden md:inline-block"> - </span>
-                            <br class="inline-block md:hidden" />
-                            Ricoh Arena, Coventry
+                        <p class="mb-4 text-md md:text-lg font-semibold leading-relaxed tracking-tight">
+                            10th June 2021 - Ricoh Arena, Coventry
                         </p>
                         <div class="flex justify-center">
-                            <a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-red mr-1">
+                            <a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-blue mr-1">
                                 <div>Visit</div>
                                 <div>
                                     <svg class="fill-current text-white inline-block h-6 w-4">

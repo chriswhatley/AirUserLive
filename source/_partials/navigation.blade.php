@@ -1,7 +1,7 @@
 <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row">
     <div class="p-2 flex flex-row items-center justify-between">
         <a href="{{ $page->baseUrl }}" class="">
-            <img class="pt-4 h-auto w-56 lg:w-96" src="{{ $page->resourcePath('/assets/img/tomorrows-warehouse-2021-logo-header.svg') }}" alt="{{ $page->siteName }}">
+            <img class="pt-4 h-auto w-56 lg:w-72" src="{{ $page->resourcePath('/assets/img/layout/air-user-live-2021-logo.svg') }}" alt="{{ $page->siteName }}">
         </a>
         <button aria-label="Small screen navigation" class="md:hidden rounded-lg focus:outline-none focus:shadow-outline-none" @click="open = !open">
             <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -24,7 +24,7 @@
             
         <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row" @click.away="open = false">
             <div @click.away="open = false" x-on:keydown.escape="open = false" class="relative" x-data="{ open: false }">
-                <button @click="open = !open" class="nav-item flex flex-row items-center w-full md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:border-red-500 focus:shadow-outline-none active:border-red-500 active:text-gray-800 {{ isSet($nav_selector) && $nav_selector == 'visit' ? 'selected' : '' }}">
+                <button @click="open = !open" class="nav-item flex flex-row items-center w-full md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:border-blue-500 focus:shadow-outline-none {{ isSet($nav_selector) && $nav_selector == 'visit' ? 'selected' : '' }}">
                     <span class="z-0">Visit</span>
                     <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div @click.away="open = false" x-on:keydown.escape="open = false" class="relative" x-data="{ open: false }">
-                <button @click="open = !open" class="nav-item flex flex-row items-center w-full md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:border-red-500 focus:shadow-outline-none active:border-red-500 active:text-gray-800 {{ isSet($nav_selector) && $nav_selector == 'exhibit' ? 'selected' : '' }}">
+                <button @click="open = !open" class="nav-item flex flex-row items-center w-full md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:border-blue-500 focus:shadow-outline-none {{ isSet($nav_selector) && $nav_selector == 'exhibit' ? 'selected' : '' }}">
                     <span class="z-0">Exhibit</span>
                     <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>

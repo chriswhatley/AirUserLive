@@ -7,7 +7,7 @@ return [
     'baseUrl' => 'http://localhost:3000',
     'siteName' => "Air User Live",
     'siteDescription' => "Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.",
-    'registrationURL' => 'https://www.eventbrite.co.uk/e/air-user-live-registration-90943198555',
+    'registrationURL' => 'https://www.eventbrite.co.uk/e/90943198555',
     'selected' => function ($page, $section) {
         return Str::contains($page->getPath(), $section) ? 'selected' : '';
     },

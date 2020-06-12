@@ -1,4 +1,4 @@
-@extends('_layouts.home', ['nav_selector' => false, 'meta_title' => 'Tomorrow\'s Warehouse - 30th September 2020 - Ricoh Arena, Coventry', 'meta_description' => 'Tomorrow\'s Warehouse is a one-day, free-to attend conference  tackling operational challenges in warehousing and logistics  at a time of unprecedented transformation.' ])
+@extends('_layouts.home', ['nav_selector' => false, 'meta_title' => 'Air User Live - June 10th 2021 - Ricoh Arena, Coventry', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.' ])
 
 @section('content')
 
@@ -8,9 +8,9 @@
             <div class="container mx-auto px-10">
                 <div class="py-12 w-full lg:w-1/2 lg:pr-12">                                                                                          
                     <h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">
-	                    About  <br /> Tomorrow's Warehouse 
+	                    About  <br /> Air User Live
 	                </h2>                        
-                    <p class="leading-relaxed">Tomorrow's Warehouse is a one-day, free-to attend conference  tackling operational challenges in warehousing and logistics  at a time of unprecedented transformation.</p>
+                    <p class="leading-relaxed">Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.</p>
                     <div class="mt-6">
                     	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-red" rel="noopener">
                             <div>Register Now</div>
@@ -34,8 +34,9 @@
 
         			<div class="w-full md:w-1/2 lg:w-1/4 bg-red-500 p-10 md:order-2">
         				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Visit</h3> 
-        				<p class="leading-relaxed">The Tomorrow's Warehouse Event has been launched to tackle the concerns of End Users and Logistics professionals as they face the future in an exciting, dynamic and fast-changing industry.</p>
-        				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-gray mt-10">
+        				<p class="leading-relaxed">Widely regarded as a clean, safe energy source that can be readily used for a variety of different industrial purposes, there are however important issues associated with compressed air that users need to be well educated in.</p>
+                        <p class="leading-relaxed">AirUser Live, with its carefully curated seminar programme will bring together experts in the field, companies at the forefront of product and technological developments, and a select audience of attendees to inform, educate, debate and network.</p>
+        				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-gray mt-4">
         					<div>Find Out More</div>
         					<div>
         						<svg class="fill-current text-white inline-block h-6 w-4">
