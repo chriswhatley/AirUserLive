@@ -1,13 +1,11 @@
-<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
- <title/>
- <desc/>
-
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="26" width="26" y="-1" x="-1"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path fill="#c92c33" id="Shape" d="m11.979769,0c-6.588873,0 -11.979769,5.390896 -11.979769,11.979769c0,6.588873 5.390896,11.979769 11.979769,11.979769c6.588873,0 11.979769,-5.390896 11.979769,-11.979769c0,-6.588873 -5.390896,-11.979769 -11.979769,-11.979769l0,0zm0,21.563583c-5.271101,0 -9.583815,-4.312717 -9.583815,-9.583815c0,-5.271099 4.312715,-9.583815 9.583815,-9.583815c5.271097,0 9.583815,4.312716 9.583815,9.583815c0,5.271097 -4.312717,9.583815 -9.583815,9.583815zm0.598988,-15.573699l-1.796965,0l0,7.18786l6.229481,3.833526l0.95838,-1.55737l-5.390896,-3.234537l0,-6.229479z"/>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <rect id="canvas_background" x="-1" y="-1" width="26" height="26" style="fill:none;"/>
+    </g>
+    <use id="Shape" xlink:href="#_Image1" x="0" y="0" width="23.96px" height="23.96px" transform="matrix(0.998314,0,0,0.998314,0,0)"/>
+    <defs>
+        <image id="_Image1" width="24px" height="24px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACH0lEQVRIibWWsWsUQRTGf7cmpJ7AoZUYsDKF6N0JWumf4JSmuFgKxiYWCXopLEQLqxSCTbDQcuzsBUHJbYiVShrFKiLkFVZ6gVjMm5uJt7u3d+IHy7Kzb7/vzcyb722DKjhpApeAtl4tfbMD5HptY82PMopGCfEMsA70gNnKJGAAPAAeYc3heAEn54DnmnHAfpI1xBmdTGJyoIs1H8sFnNwEngJzYQRYxZqvhbk7OQM8AayO/AJuYc3WqICTRc1yDjgAVrDmZSHxqNANYBOYV5GLYSYNDZgB3uM38QC4gDXfapFHkdPArorkwGWsOcz09TqxQlYKyZ20cHKEk2eFAv6bO/rUBtYAMi3FXqCpvSzFIi+AV/q0gZNmhq/zUIqrU5NHBI5ZoJMRy3G/tFomgTVfgO/61E4Fdv6ZPCJwtTPi5uYlwdOgnwpMims4uVI3OCOZzpjYPbyFnAXe4mRLK7AIHb3nGXFpWiXBHtb8xJpl4CrwGVgG9nByGycn/ooeLnsqcEq9pRrWvAHOA/fwtrIJvB6+d7JANME8A7bxlgveuMbDmgHWPAQWlTw9nIFjwHCznfTUBo7UuKaDk6WE5z4cN7t3+I3+D2bnO1EXb7XzwC5OlibKHD4Q7bobuludhnNXj38R8QJ+za/rSEXDiR9VtcxwQjuMtsy+Zv4ppatq+mvABuOb/m98039cr+kfF2om2YYL4i9LDvSrflv+AMREvG2j3myaAAAAAElFTkSuQmCC"/>
+    </defs>
 </svg>

@@ -653,10 +653,7 @@ video {
 .nav-item:visited {
   --text-opacity: 1;
   color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
-  --border-opacity: 1;
-  border-color: #1a202c;
-  border-color: rgba(26, 32, 44, var(--border-opacity))
+  color: rgba(255, 255, 255, var(--text-opacity))
 }
 
 .nav-item:active {
@@ -724,8 +721,8 @@ video {
 
 .footer-link:hover {
   --text-opacity: 1;
-  color: #e53e3e;
-  color: rgba(229, 62, 62, var(--text-opacity))
+  color: #00AEEF;
+  color: rgba(0, 174, 239, var(--text-opacity))
 }
 
 @media (min-width: 768px) {
@@ -818,6 +815,54 @@ video {
   --bg-opacity: 1;
   background-color: #718096;
   background-color: rgba(113, 128, 150, var(--bg-opacity))
+}
+
+.webp .hero {
+  background-image: url(../img/layout/factory-1-compressed.webp);
+}
+
+.no-webp .hero {
+  background-image: url(../img/layout/factory-1-compressed.jpg);
+}
+
+.webp .intro {
+  background-image: url(../img/layout/intro-4-compressed.webp);
+}
+
+.no-webp .intro {
+  background-image: url(../img/layout/intro-4-compressed.jpg);
+}
+
+.webp .why-visit {
+  background-image: url(../img/layout/why-visit-1-compressed.webp);
+}
+
+.no-webp .why-visit {
+  background-image: url(../img/layout/why-visit-1-compressed.jpg);
+}
+
+.webp .why-exhibit {
+  background-image: url(../img/layout/why-exhibit-1-compressed.webp);
+}
+
+.no-webp .why-exhibit {
+  background-image: url(../img/layout/why-exhibit-1-compressed.jpg);
+}
+
+.webp .feature-home {
+  background-image: url(../img/layout/feature-2-compressed.webp);
+}
+
+.no-webp .feature-home {
+  background-image: url(../img/layout/feature-2-compressed.jpg);
+}
+
+.webp .register-home {
+  background-image: url(../img/layout/register-2-compressed.webp);
+}
+
+.no-webp .register-home {
+  background-image: url(../img/layout/register-2-compressed.jpg);
 }
 
 .exhibitor-profile ul {

@@ -16,7 +16,7 @@
 	                       <img src="{{ $page->resourcePath('/assets/img/icons/calendar-icon.svg') }}" data-src="{{ $page->resourcePath('/assets/img/icons/calendar-icon.svg') }}" class="lazyload" alt="Calendar Icon" />
 	                    </div>
 	                    <div class="w-full text-white tracking-tight">
-	                        Wednesday 9<sup>th</sup> June 2021
+	                        Thursday 10<sup>th</sup> June 2021
 	                    </div>
 	                </div>                                      
 
@@ -54,7 +54,7 @@
 
 	            <div class="flex items-start mt-10">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -65,7 +65,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -76,7 +76,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -87,7 +87,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -98,7 +98,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -109,7 +109,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -120,7 +120,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -131,7 +131,7 @@
 
 	            <div class="flex items-start">
 	                <div class="footer-link-icon">
-	                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
+	                   <svg class="fill-current text-blue-500 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
 	                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
 	                    </svg>
 	                </div>
@@ -143,7 +143,11 @@
 
 	        <div class="w-full lg:w-1/3 px-6 pt-12">                
 	        	<div class="max-w-sm">
-	        		<img src="{{ $page->resourcePath('/assets/img/wbm-logo-compressed.png') }}" alt="Western Business Media Limited">
+	        		<picture>
+                        <source srcset="{{ $page->resourcePath('/assets/img/layout/wbm-logo-compressed.webp') }}" type="image/webp">
+                        <source srcset="{{ $page->resourcePath('/assets/img/layout/wbm-logo-compressed.png') }}" type="image/png"> 
+                        <img src="{{ $page->resourcePath('/assets/img/layout/wbm-logo-compressed.png') }}" alt="Western Business Media Limited">
+                    </picture>
 	        	</div>
 	            
 	            <div class="flex items-start mt-8">
@@ -181,10 +185,10 @@
 
 	                <div class="flex items-start mt-3">
 	                	<div class="flex w-full text-white tracking-tight">
-	                		<a class="h-8 w-8" href="https://www.linkedin.com/company/tomorrows-warehouse" target="_blank" rel="noopener">
+	                		<a class="h-8 w-8" href="hhttps://www.linkedin.com/company/air-user-live" target="_blank" rel="noopener">
 			                   <img src="{{ $page->resourcePath('/assets/img/icons/linkedin-icon.svg') }}" alt="LinkedIn">
 			                </a>
-			                <a class="h-8 w-8 ml-2" href="https://twitter.com/TmrwsWarehouse" target="_blank" rel="noopener">
+			                <a class="h-8 w-8 ml-2" href="https://twitter.com/AirUserLive" target="_blank" rel="noopener">
 			                    <img src="{{ $page->resourcePath('/assets/img/icons/twitter-icon.svg') }}" alt="Twitter">
 			                </a>
 	                	</div>

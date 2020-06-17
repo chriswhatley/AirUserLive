@@ -3,7 +3,7 @@ const imageminWebp = require('imagemin-webp');
 
 (async () => {
   await imagemin(['source/assets/img/*.{jpg,png}'], {
-    destination: 'source/assets/img/webp',
+    destination: 'source/assets/img/',
     plugins: [
       imageminWebp({quality: 65})
     ]
