@@ -1,4 +1,4 @@
-@extends('_layouts.master', ['page_title' => 'Privacy Policy', 'nav_selector' => false, 'meta_title' => 'Tomorrow\'s Warehouse Privacy Policy', 'meta_description' => 'Tomorrow\'s Warehouse will showcase the latest products, services and technological solutions that tackle the operational challenges in warehousing and logistics.'])
+@extends('_layouts.master', ['page_title' => 'Privacy Policy', 'nav_selector' => false, 'meta_title' => 'Tomorrow\'s Warehouse Privacy Policy', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.'])
 
 @section('content')
 	
@@ -7,7 +7,7 @@
 
     		<div class="w-full">				
 		
-				<p>Western Business Media Ltd. are the organiser of "The Tomorrow's Warehouse Event", "Air User Live" and “The Safety &amp; Health Excellence Awards.” They are also the publisher of “Industrial Plant & Equipment”, “Controls, Drives & Automation”, “Health & Safety Matters”, “Cleaning Matters”, “Fire Safety Matters”, "Security Matters" and “Handling & Storage Solutions”.</p>
+				<p>Western Business Media Ltd. are the organiser of "Air User Live", "The Tomorrow's Warehouse Event" and “The Safety &amp; Health Excellence Awards.” They are also the publisher of “Industrial Plant & Equipment”, “Controls, Drives & Automation”, “Health & Safety Matters”, “Cleaning Matters”, “Fire Safety Matters”, "Security Matters" and “Handling & Storage Solutions”.</p>
 				<p>This privacy policy explains how we use any personal information we collect about you when you register for one of our events and/or magazines.</p>
 
 				<h4>What information do we collect about you?</h4>
@@ -34,7 +34,7 @@
 
 				<h4>Cookies</h4>
 				<p>Cookies are text files places on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on web activity.</p>
-				<p>For further information on cookies please visit <a class="text-red-500 font-semibold" href="https://www.allaboutcookies.org" target="_blank">www.allaboutcookies.org</a>.</p>
+				<p>For further information on cookies please visit <a class="text-blue-500 font-semibold" href="https://www.allaboutcookies.org" target="_blank" rel="noopener">www.allaboutcookies.org</a>.</p>
 				<p>You can set your browser to not accept cookies and the above websites tell you how to remove cookies from your browser. However in a few cases some of our website features may not function as a result.</p>
 
 				<h4>Other websites</h4>
@@ -46,7 +46,7 @@
 
 				<h4>How to contact us</h4>
 				<p>Please contact us if you have any questions about our privacy policy or information we hold about you:</p>
-				<p>By email: <a class="text-red-500 font-semibold" href="mailto:jmullender@westernbusiness.media">jmullender@westernbusiness.media</a></p>
+				<p>By email: <a class="text-blue-500 font-semibold" href="mailto:jmullender@westernbusiness.media">jmullender@westernbusiness.media</a></p>
 				<p>Or write to us at : Western Business Media Ltd, Data department, Dorset House, 64 High Street, East Grinstead, West Sussex, RH19 3DE	</p>
 	        </div>
 

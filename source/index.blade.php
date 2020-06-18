@@ -34,7 +34,7 @@
 
     			<div class="w-full md:w-1/2 lg:w-1/4 bg-gray-800 p-10 md:order-2">
     				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Visit</h3> 
-                    <p class="leading-relaxed">AirUser Live will bring together experts in the field, companies at the forefront of product and technological developments, a select audience of attendees and a carefully curated seminar programme to inform, educate, debate and network.</p>
+                    <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis doloremque illo eum soluta ducimus dicta laudantium consequatur, ipsum ad neque iure ut autem officia porro, quas, aut dolor. Sed, deleniti!</p>
     				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-blue mt-4">
     					<div>Find Out More</div>
     					<div>
@@ -140,7 +140,7 @@
                     <h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">
 	                    Register Your Interest
 	                </h2>                        
-                    <p class="leading-relaxed">AirUser Live, with its carefully curated seminar programme will bring together experts in the field, companies at the forefront of product and technological developments,and a select audience of attendees to inform, educate, debate and network.n</p>
+                    <p class="leading-relaxed">AirUser Live, with its carefully curated seminar programme will bring together experts in the field, companies at the forefront of product and technological developments,and a select audience of attendees to inform, educate, debate and network.</p>
                     <div class="mt-6">
                     	<a href="https://www.eventbrite.co.uk/e/90942221633" class="btn btn-gray" target="_blank" rel="noopener">
                             <div>Register now</div>

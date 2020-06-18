@@ -1,1 +1,1 @@
-<section class="hidden xl:block text-white bg-gray-900 bg-bottom bg-cover md:bg-fixed h-64" style="background-image: url({{ $page->resourcePath('/assets/img/feature-4-compressed.jpg') }});"></section>
+<section class="hidden xl:block text-white bg-gray-900 bg-bottom bg-cover md:bg-fixed h-64 parallax-exhibit"></section>

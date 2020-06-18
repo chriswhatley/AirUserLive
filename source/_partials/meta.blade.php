@@ -15,7 +15,7 @@
 		<meta name="twitter:site" content="@IPEmagazine">
 		<meta name="twitter:title" content="{{ $meta_title }}">
 		<meta name="twitter:description" content="{{ $meta_description }}">
-		<meta name="twitter:image" content="{{ $page->resourcePath('/assets/img/twitter-card-large.png') }}">
+		<meta name="twitter:image" content="{{ $page->resourcePath('/assets/img/layout/twitter-card-large.png') }}">
 		<meta name="twitter:creator" content="@IPEmagazine">
 		<meta property="og:url" content="{{ trim($page->baseUrl, '/') }}" />
 		<meta property="og:type" content="article" />

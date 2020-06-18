@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'FAQs', 
 	'nav_selector' => 'visit', 
-	'meta_title' => 'Tomorrow\'s Warehouse FAQs', 
+	'meta_title' => 'Air User Live FAQs', 
 	'meta_description' => 'When and where, getting to the Ricoh Arena, parking, catering and more'])
 
 @section('content')
@@ -25,7 +25,7 @@
 					</div>
 					<div class="w-1/2">
 						<p class="leading-relaxed">
-							9th June 2021<br />
+							10th June 2021<br />
 							09:00 - 17:00
 						</p>
 					</div>
@@ -37,7 +37,7 @@
 					<p class="mt-3 leading-relaxed">We have 2,000 on site car parking spaces. Easy access makes the Ricoh Arena an ideal destination, with three train stations within 8 miles, Birmingham International Airport only a 20 minute drive away and London Euston 55 minutes by train.</p> 
 
 					<div class="mt-6">
-		            	<a href="https://www.ricoharena.com/visiting-us/getting-here/#Gettinghere" target="_blank" class="btn btn-red">
+		            	<a href="https://www.ricoharena.com/visiting-us/getting-here/#Gettinghere" target="_blank" class="btn btn-blue">
 		                    <div>Find out more</div>
 		                    <div>
 		                        <svg class="fill-current text-white inline-block h-6 w-4">

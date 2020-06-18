@@ -2,7 +2,7 @@
     [
         'page_title' => "$page->name",
         'nav_selector' => 'visit',
-        'meta_title' => "Tomorrow's Warehouse Exhibitor : $page->name",
+        'meta_title' => "Air User Live Exhibitor : $page->name",
         'meta_description' => "$page->description"
     ]
 )
@@ -22,8 +22,12 @@
             </div>
 
             @if ($page->logo)
-	            <div class="w-full mt-6">
-	            	<img src="{{ $page->resourcePath($page->logo) }}" alt="{{ $page->name }}" class="w-1/2 mx-auto mb-2 sm:w-1/3 md:w-1/4 md:mx-0">
+	            <div class="w-full mt-6 h-32">
+                    <picture>
+                        <source srcset="{{ $page->resourcePath('/assets/img/exhibitors/'. $page->logo) }}.webp" type="image/webp">
+                        <source srcset="{{ $page->resourcePath('/assets/img/exhibitors/'. $page->logo) }}.png" type="image/png"> 
+                        <img src="{{ $page->resourcePath('/assets/img/exhibitors/'. $page->logo) }}.png" alt="{{ $page->name }}" class="mx-auto mb-2 max-h-full max-w-xs md:mx-0">
+                    </picture>	   
 	            </div>
             @endif
 
@@ -39,7 +43,7 @@
 	            	</div>
 	            	<div class="mt-3">
 	            		<span class="block text-sm font-bold uppercase">Website</span>
-	            		<a href="{{ $page->website }}" target="_blank">{{ $page->website }}</a>
+	            		<a href="{{ $page->website }}" target="_blank" rel="noopener" class="hover:text-blue-500 transition duration-300 ease-in-out">{{ $page->website }}</a>
 	            	</div>
             	</div>     	
             </div>
@@ -64,7 +68,7 @@
 
             <div class="my-1 ml-1">
                 @if ($next = $page->getNext())
-                    <a class="btn btn-red" href="{{ $next->getUrl() }}" title="Next Exhibitor: {{ $next->name }}">                      
+                    <a class="btn btn-blue  " href="{{ $next->getUrl() }}" title="Next Exhibitor: {{ $next->name }}">                      
                         {{ $next->name }}
                         <svg class="fill-current text-white inline-block h-6 w-4">
                             <path class="heroicon-ui" d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/>

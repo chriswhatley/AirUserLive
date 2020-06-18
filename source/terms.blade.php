@@ -1,4 +1,4 @@
-@extends('_layouts.master', ['page_title' => 'Exhibitors', 'nav_selector' => 'visit', 'meta_title' => 'Tomorrow\'s Warehouse Exhibitors', 'meta_description' => 'Tomorrow\'s Warehouse will showcase the latest products, services and technological solutions that tackle the operational challenges in warehousing and logistics.'])
+@extends('_layouts.master', ['page_title' => 'Exhibitors', 'nav_selector' => 'visit', 'meta_title' => 'Tomorrow\'s Warehouse Exhibitors', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.'])
 
 @section('content')
 	

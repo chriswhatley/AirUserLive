@@ -101,6 +101,11 @@
 	@apply bg-gray-600
 }
 
+.hero, .feature-home, .parallax-visit, .parallax-exhibit {
+	background-color: black;
+  	background-blend-mode: soft-light;
+}
+
 .webp .hero {
 	background-image: url(../img/layout/factory-1-compressed.webp);
 }
@@ -148,6 +153,110 @@
 	background-image: url(../img/layout/register-2-compressed.jpg);
 }
 
+.webp .why-visit {
+	background-image: url(../img/layout/why-visit-2-compressed.webp);
+}
+
+.no-webp .why-visit {
+	background-image: url(../img/layout/why-visit-2-compressed.jpg);
+}
+
+.webp .why-exhibit {
+	background-image: url(../img/layout/why-exhibit-compressed.webp);
+}
+
+.no-webp .why-exhibit {
+	background-image: url(../img/layout/why-exhibit-compressed.jpg);
+}
+
+.webp .seminar-legal {
+	background-image: url(../img/layout/register-2-compressed.webp);
+}
+
+.no-webp .seminar-legal {
+	background-image: url(../img/layout/register-2-compressed.jpg);
+}
+
+.webp .seminar-health {
+	background-image: url(../img/layout/why-exhibit-compressed.webp);
+}
+
+.no-webp .seminar-health {
+	background-image: url(../img/layout/why-exhibit-compressed.jpg);
+}
+
+.webp .seminar-training {
+	background-image: url(../img/layout/seminar-training-compressed.webp);
+}
+
+.no-webp .seminar-training {
+	background-image: url(../img/layout/seminar-training-compressed.jpg);
+}
+
+.webp .seminar-efficiency {
+	background-image: url(../img/layout/feature-2-compressed.webp);
+}
+
+.no-webp .seminar-efficiency {
+	background-image: url(../img/layout/feature-2-compressed.jpg);
+}
+
+.webp .feature-visit-discover {
+	background-image: url(../img/layout/discover-1-compressed.webp);
+}
+
+.no-webp .feature-visit-discover {
+	background-image: url(../img/layout/discover-1-compressed.jpg);
+}
+
+.webp .feature-visit-seminar {
+	background-image: url(../img/layout/conference-1-compressed.webp);
+}
+
+.no-webp .feature-visit-seminar {
+	background-image: url(../img/layout/conference-1-compressed.jpg);
+}
+
+.webp .feature-exhibit-sponsor {
+	background-image: url(../img/layout/factory-1-compressed.webp);	
+}
+
+.no-webp .feature-exhibit-sponsor {
+	background-image: url(../img/layout/factory-1-compressed.jpg);	
+}
+
+.webp .feature-exhibit-suppliers {
+	background-image: url(../img/layout/network-1-compressed.webp);	
+}
+
+.no-webp .feature-exhibit-suppliers {
+	background-image: url(../img/layout/network-1-compressed.jpg);	
+}
+
+.webp .feature-exhibit-contact {
+	background-image: url(../img/layout/register-2-compressed.webp);	
+}
+
+.no-webp .feature-exhibit-contact {
+	background-image: url(../img/layout/register-2-compressed.jpg);	
+}
+
+.webp .parallax-visit {
+	background-image: url(../img/layout/feature-2-compressed.webp);	
+}
+
+.no-webp .parallax-visit {
+	background-image: url(../img/layout/feature-2-compressed.jpg);	
+}
+
+.webp .parallax-exhibit {
+	background-image: url(../img/layout/feature-5-compressed.webp);	
+}
+
+.no-webp .parallax-exhibit {
+	background-image: url(../img/layout/feature-5-compressed.jpg);	
+}
+
 .exhibitor-profile ul {
 	@apply ml-8 mb-5 list-disc
 }
@@ -159,4 +268,4 @@
 
 	p {
 		@apply mb-4
-}
+	}

@@ -1,8 +1,8 @@
 @extends('_layouts.master', 
 	['page_title' => 'Why Visit', 
 	'nav_selector' => 'visit', 
-	'meta_title' => 'Why Visit Tomorrow\'s Warehouse', 
-	'meta_description' => 'Discover new technologies to revamp operations for a challenging future - Network with logistics professional peers - Debate and discuss the issues you are facing',
+	'meta_title' => 'Why Visit Air User Live', 
+	'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.',
 	'partial' => 'parallax-visit'])
 
 @section('content')
@@ -10,19 +10,19 @@
 	<div class="container mx-auto">
     	<div class="flex flex-wrap py-6 md:py-10 px-5">
 
-    		<div class="md:w-1/2 md:pr-10">
-				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Visiting Tomorrow's Warehouse </h2> 
-    			<p class="leading-relaxed">Tomorrow's Warehouse is a one day, free to attend conference tackling operational challenges in warehousing and logistics at a time of unprecedented transformation.</p>
+    		<div class="md:w-1/2 md:pr-10">  
+				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Visiting Air User Live</h2> 
+    			<p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus excepturi iste quo cum soluta! Qui doloribus modi deserunt velit, aliquam id voluptatem quo dicta optio sit. Modi ipsa ipsum illum.</p>
 				
-				<div class="bg-gray-600 mt-4 p-6  font-semibold text-md uppercase text-center text-white rounded">
+				<div class="bg-gray-800 mt-4 p-6  font-semibold text-md uppercase text-center text-white rounded">
 					<span class="block text-2xl">Save the date</span>
-					<span class="block mt-3 text-md">9th June, 2021 at the Ricoh Arena - Coventry</span>
+					<span class="block mt-3 text-md">10th June, 2021 at the Ricoh Arena - Coventry</span>
 				</div>
 				
-				<p class="mt-4 leading-relaxed">The Tomorrow's Warehouse Event has been launched to tackle the concerns of End Users and Logistics Professionals as they face the future in an exciting, dynamic and fast-changing industry.</p>
-				<p class="mt-4 leading-relaxed">We have surveyed our readers annually to uncover the challenges they face, including restricted warehouse space, a need to boost picking operations, and a shallower pool of labour, to name just a few. The event will pull managers and experts together to give them takeaways and answers that can have real practical benefits.</p>
+				<p class="mt-4 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, labore ea quam iusto ab, enim soluta velit distinctio eos iure vero culpa. Minus, obcaecati, nam aspernatur velit alias distinctio at.</p>
+				<p class="mt-4 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ad laborum cupiditate dolorum enim, cumque nobis repellendus error.</p>
 				<div class="mt-6">
-                	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-red">
+                	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-blue">
                         <div>Register Now</div>
                         <div>
                             <svg class="fill-current text-white inline-block h-6 w-4">
@@ -33,7 +33,7 @@
                 </div>
     		</div>
 
-    		<div class="hidden md:block md:w-1/2 bg-center bg-cover rounded overflow-hidden" style="background-image: url({{ $page->resourcePath('/assets/img/why-visit-1-compressed.jpg') }})"></div>
+    		<div class="hidden md:block md:w-1/2 bg-center bg-cover rounded overflow-hidden why-visit"></div>
 		</div>
 	</div>
 	
