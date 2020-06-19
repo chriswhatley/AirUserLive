@@ -5,6 +5,7 @@ use Illuminate\Support\Str;
 return [
     'production' => false,
     'baseUrl' => 'http://localhost:3000',
+    // 'baseUrl' => 'http://192.168.8.110:3000',
     'siteName' => "Air User Live",
     'siteDescription' => "Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.",
     'registrationURL' => 'https://www.eventbrite.co.uk/e/90943198555',

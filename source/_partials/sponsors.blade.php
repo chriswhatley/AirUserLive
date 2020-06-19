@@ -28,7 +28,7 @@
                 <div class="w-1/3 xl:w-1/6">
                     <picture>
                         <source srcset="assets/img/sponsors/direct-air-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/cdirect-air-compressed.png" type="image/png">                         
+                        <source srcset="assets/img/sponsors/direct-air-compressed.png" type="image/png">                         
                         <img src="assets/img/sponsors/direct-air-compressed.png" alt="Direct Air">
                     </picture> 
                 </div>

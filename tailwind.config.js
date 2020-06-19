@@ -1,4 +1,30 @@
 module.exports = {
+  purge: {
+    // These options are passed through directly to PurgeCSS
+    options: {
+      whitelist: [
+        '.no-webp .hero',
+        '.no-webp .intro',
+        '.no-webp .why-visit',
+        '.no-webp .why-exhibit',
+        '.no-webp .feature-home',
+        '.no-webp .register-home',
+        '.no-webp .why-visit',
+        '.no-webp .why-exhibit',
+        '.no-webp .seminar-legal',
+        '.no-webp .seminar-health',
+        '.no-webp .seminar-training',
+        '.no-webp .seminar-efficiency',
+        '.no-webp .feature-visit-discover',
+        '.no-webp .feature-visit-seminar',
+        '.no-webp .feature-exhibit-sponsor',
+        '.no-webp .feature-exhibit-suppliers',
+        '.no-webp .feature-exhibit-contact',
+        '.no-webp .parallax-visit',
+        '.no-webp .parallax-exhibit'
+      ],
+    }
+  },
   prefix: '',
   important: false,
   separator: ':',
