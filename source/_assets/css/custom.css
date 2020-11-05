@@ -261,6 +261,21 @@
 	@apply ml-8 mb-5 list-disc
 }
 
+.sponsor
+	img {
+		@apply mb-6
+	}
+
+	.portrait img {
+		@apply w-40
+	}
+
+	.landscape img {
+		@apply w-56
+	}
+
+
+
 .smallprint 
 	h4 {
 		@apply mt-10 mb-1 font-semibold uppercase

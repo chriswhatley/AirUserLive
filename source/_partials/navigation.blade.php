@@ -50,6 +50,7 @@
                     <div class="px-2 py-2 bg-white rounded-md shadow text-gray-900">
                         <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/why-exhibit') }}">Why Exhibit</a>
                         <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/exhibitors') }}">Exhibitor List</a>
+                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/sponsors') }}">Our Sponsors</a>
                         <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/contact') }}">Contact</a>
                     </div>
                 </div>

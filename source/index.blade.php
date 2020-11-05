@@ -133,8 +133,8 @@
        @include('_partials/sponsors')
 
         <section class="relative bg-blue-500 bg-no-repeat bg-center lg:bg-left bg-contain text-white">      
-            <div class="hidden md:block absolute top-0 left-0 h-full w-1/2 bg-cover bg-center register-home"></div>                                                                 
-
+            <div class="hidden md:block absolute top-0 left-0 h-full w-1/2 bg-cover bg-center register-home"></div>
+            
             <div class="container mx-auto px-10">
                 <div class="py-12 w-full md:w-1/2 md:ml-auto md:pl-12">                                                                                          
                     <h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">

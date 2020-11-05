@@ -1,64 +1,53 @@
 <section class="text-white bg-gray-900">  
-    <div>
-        <div class="flex px-5 py-12 flex-row flex-col items-center">
-            <h2 class="text-xl md:text-2xl uppercase font-semibold leading-tight tracking-tight mb-4 font-medium">Supporters</h2>
 
-            <div class="flex flex-wrap pb-6">
-                <div class="w-1/3 xl:w-1/6">                    
-                    <picture>
-                        <source srcset="assets/img/sponsors/atlas-copco-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/atlas-copco-compressed.png" type="image/png"> 
-                        <img src="assets/img/sponsors/atlas-copco-compressed.png" alt="Atlas Copco">
-                    </picture>
-                </div>
-                <div class="w-1/3 xl:w-1/6">
-                    <picture>
-                        <source srcset="assets/img/sponsors/beko-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/beko-compressed.png" type="image/png"> 
-                        <img src="assets/img/sponsors/beko-compressed.png" alt="Beko">
-                    </picture>
-                </div>
-                <div class="w-1/3 xl:w-1/6">
-                    <picture>
-                        <source srcset="assets/img/sponsors/cs-instruments-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/cs-instruments-compressed.png" type="image/png">                         
-                        <img src="assets/img/sponsors/cs-instruments-compressed.png" alt="CS Instruments">
-                    </picture>                 
-                </div>
-                <div class="w-1/3 xl:w-1/6">
-                    <picture>
-                        <source srcset="assets/img/sponsors/direct-air-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/direct-air-compressed.png" type="image/png">                         
-                        <img src="assets/img/sponsors/direct-air-compressed.png" alt="Direct Air">
-                    </picture> 
-                </div>
-                <div class="w-1/3 xl:w-1/6">
-                    <picture>
-                        <source srcset="assets/img/sponsors/hiline-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/hiline-compressed.png" type="image/png">                         
-                        <img src="assets/img/sponsors/hiline-compressed.png" alt="HiLine">
-                    </picture> 
-                </div>
-                <div class="w-1/3 xl:w-1/6">
-                     <picture>
-                        <source srcset="assets/img/sponsors/hpc-compressed.webp" type="image/webp">
-                        <source srcset="assets/img/sponsors/hpc-compressed.png" type="image/png">                         
-                        <img src="assets/img/sponsors/hpc-compressed.png" alt="HPC Compressed Air Systems">
-                    </picture>
-                    
-                </div>
+    <div class="w-full px-6 pt-12 text-center">
+        <h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Our Sponsors</h3> 
+    </div>
+    
+    <div class="flex px-6 pt-6 flex-col items-center">
+
+        <div class="w-full md:w-4/5 flex flex-wrap">
+            <div class="w-1/3 text-center flex flex-wrap items-center justify-center">    
+                <h3 class="w-full text-sm md:text-lg uppercase font-bold">Headline Sponsor</h3>                
+                <picture>
+                    <source srcset="assets/img/sponsors/sponsor-beko-monotone.webp" type="image/webp">
+                    <source srcset="assets/img/sponsors/sponsor-beko-monotone.png" type="image/png"> 
+                    <img src="assets/img/sponsors/sponsor-beko-monotone.png" alt="Beko" class="w-48 mx-auto mt-4">
+                </picture>
             </div>
 
-            <div>
-                <a href="{{ $page->resourcePath('/exhibitors') }}" class="btn btn-blue">
-                    <div>Find Out More</div>
-                    <div>
-                        <svg class="fill-current text-white inline-block h-6 w-4">
-                            <path class="heroicon-ui" d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/>
-                        </svg>
-                    </div>
-                </a>
+            <div class="w-1/3 text-center flex flex-wrap items-center justify-center">    
+                <h3 class="w-full text-sm md:text-lg uppercase font-bold">Sponsored by</h3>                
+                <picture>
+                    <source srcset="assets/img/sponsors/sponsor-hiline-monotone.webp" type="image/webp">
+                    <source srcset="assets/img/sponsors/sponsor-hiline-monotone.png" type="image/png"> 
+                    <img src="assets/img/sponsors/sponsor-hiline-monotone.png" alt="HiLine Industries" class="w-48 mx-auto mt-4">
+                </picture>
             </div>
+
+            <div class="w-1/3 text-center flex flex-wrap items-center justify-center">         
+                <h3 class="w-full text-sm md:text-lg uppercase font-bold">Supported by</h3>                
+                <picture>
+                    <source srcset="assets/img/sponsors/sponsor-bcas-monotone.webp" type="image/webp">
+                    <source srcset="assets/img/sponsors/sponsor-bcas-monotone.png" type="image/png"> 
+                    <img src="assets/img/sponsors/sponsor-bcas-monotone.png" alt="BCAS" class="w-48 mx-auto mt-4">
+                </picture>
+            </div>
+
         </div>
     </div>
+
+    <div class="w-full flex justify-center pt-6 pb-12">
+    
+        <a href="/sponsors" class="btn btn-blue">
+            <div>Find out more</div>
+            <div>
+                <svg class="fill-current text-white inline-block h-6 w-4">
+                    <path class="heroicon-ui" d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/>
+                </svg>
+            </div>
+        </a>
+
+    </div>
+    
 </section>
