@@ -980,6 +980,8 @@ video {
   list-style-type: disc
 }
 
+/*! purgecss start ignore */
+
 .sponsor
 	img {
   margin-bottom: 1.5rem
@@ -992,6 +994,8 @@ video {
 .landscape img {
   width: 14rem
 }
+
+/*! purgecss end ignore */
 
 .smallprint 
 	h4 {

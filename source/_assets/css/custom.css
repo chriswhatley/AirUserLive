@@ -261,6 +261,7 @@
 	@apply ml-8 mb-5 list-disc
 }
 
+/*! purgecss start ignore */
 .sponsor
 	img {
 		@apply mb-6
@@ -273,7 +274,7 @@
 	.landscape img {
 		@apply w-56
 	}
-
+/*! purgecss end ignore */
 
 
 .smallprint 
