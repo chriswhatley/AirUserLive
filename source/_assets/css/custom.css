@@ -34,6 +34,10 @@
 }
 
 /* Footer Nav Items*/
+footer .watermark {
+	background-image: url(../img/layout/wbm-watermark.svg);
+}
+
 .footer-link-icon {
 	@apply inline-block w-4 h-4 mr-3 pt-2
 }
@@ -122,20 +126,12 @@
 	background-image: url(../img/layout/intro-4-compressed.jpg);
 }
 
-.webp .why-visit {
-	background-image: url(../img/layout/why-visit-1-compressed.webp);
-}
-
-.no-webp .why-visit {
-	background-image: url(../img/layout/why-visit-1-compressed.jpg);
-}
-
 .webp .why-exhibit {
-	background-image: url(../img/layout/why-exhibit-1-compressed.webp);
+	background-image: url(../img/layout/why-exhibit-2-compressed.webp);
 }
 
 .no-webp .why-exhibit {
-	background-image: url(../img/layout/why-exhibit-1-compressed.jpg);
+	background-image: url(../img/layout/why-exhibit-2-compressed.jpg);
 }
 .webp .feature-home {
 	background-image: url(../img/layout/feature-2-compressed.webp);
@@ -159,14 +155,6 @@
 
 .no-webp .why-visit {
 	background-image: url(../img/layout/why-visit-2-compressed.jpg);
-}
-
-.webp .why-exhibit {
-	background-image: url(../img/layout/why-exhibit-compressed.webp);
-}
-
-.no-webp .why-exhibit {
-	background-image: url(../img/layout/why-exhibit-compressed.jpg);
 }
 
 .webp .seminar-legal {
@@ -202,11 +190,11 @@
 }
 
 .webp .feature-visit-discover {
-	background-image: url(../img/layout/discover-1-compressed.webp);
+	background-image: url(../img/layout/feature-6-compressed.webp);
 }
 
 .no-webp .feature-visit-discover {
-	background-image: url(../img/layout/discover-1-compressed.jpg);
+	background-image: url(../img/layout/feature-6-compressed.jpg);
 }
 
 .webp .feature-visit-seminar {
