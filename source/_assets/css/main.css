@@ -4,6 +4,6 @@
 
 @import "custom";
 
-/*@import "debugging";*/
+@import "debugging";
 
 @import "tailwindcss/utilities";

@@ -245,8 +245,13 @@ footer .watermark {
 	background-image: url(../img/layout/feature-5-compressed.jpg);	
 }
 
-.exhibitor-profile ul {
-	@apply ml-8 mb-5 list-disc
+.exhibitor-profile ul,
+.seminar ul {
+	@apply ml-8 mt-4 mb-5 list-disc
+}
+
+.seminar p {
+	@apply mt-1 mb-0
 }
 
 /*! purgecss start ignore */
