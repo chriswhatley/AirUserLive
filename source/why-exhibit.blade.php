@@ -7,9 +7,18 @@
 
     		<div class="w-full md:w-1/2 pr-10">
 				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Exhibiting at Air User Live</h2>
-    			<p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil accusamus natus debitis quam et quod, cupiditate, sunt pariatur provident fugit voluptatem, obcaecati rerum nam delectus ut culpa sequi veritatis harum!</p>
-                <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil accusamus natus debitis quam et quod, cupiditate, sunt pariatur provident fugit voluptatem, obcaecati rerum nam delectus ut culpa sequi veritatis harum!</p>
-				<p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    			<p class="leading-relaxed">
+    				2021's only live UK event dedicated to the compressed air market, AirUser Live will provide the ideal opportunity for exhibitors to connect with a specially selected audience of business decision-makers.
+    			</p>
+    			<p class="leading-relaxed">
+					The event will be extensively marketed to a highly relevant audience by the team behind Industrial Plant & Equipment magazine and the highly successful annual AirUser Guide. 
+				</p>
+				<p class="leading-relaxed">
+					In addition to showcasing all their latest products and services via the tabletop exhibition, exhibitors will be afforded a unique opportunity to meet prospective clients and catch up with existing contacts, while all the time raising their profile within the compressed air sector.
+				</p>
+				<p class="leading-relaxed">
+					For exhibitors investing in one of the comprehensive sponsorship packages, there is also the opportunity to present as part of the seminar programme and put forward a representative to speak on the roundtable panel.
+				</p>
 				<div class="mt-6">
                 	<a href="{{ $page->resourcePath('/contact') }}" class="btn btn-blue">
                         <div>Contact the sales team</div>

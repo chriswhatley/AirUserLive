@@ -1,4 +1,4 @@
-@extends('_layouts.home', ['nav_selector' => false, 'meta_title' => 'Air User Live - June 10th 2021 - Ricoh Arena, Coventry', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.' ])
+@extends('_layouts.home', ['nav_selector' => false, 'meta_title' => 'Air User Live - 1st December 2021 - Ricoh Arena, Coventry', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.' ])
 
 @section('content')
 
@@ -8,9 +8,9 @@
             <div class="container mx-auto px-10">
                 <div class="py-12 w-full lg:w-1/2 lg:pr-12">                                                                                          
                     <h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">
-	                    About  <br /> Air User Live
+	                    About <br /> Air User Live
 	                </h2>                        
-                    <p class="leading-relaxed">Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.</p>
+                    <p class="leading-relaxed">The AirUser Live Conference has been launched to provide exclusive access to the latest industry updates and to help tackle the concern of the end user Air Powered systems professional.</p>
                     <div class="mt-6">
                     	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-blue" rel="noopener">
                             <div>Register Now</div>
@@ -34,7 +34,8 @@
 
     			<div class="w-full md:w-1/2 lg:w-1/4 bg-gray-800 p-10 md:order-2">
     				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Visit</h3> 
-                    <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis doloremque illo eum soluta ducimus dicta laudantium consequatur, ipsum ad neque iure ut autem officia porro, quas, aut dolor. Sed, deleniti!</p>
+                    <p class="leading-relaxed">While the past year has seen us all embrace digital communication, there's nothing quite like live face-to-face events.</p>
+                    <p class="leading-relaxed">AirUser Live will be the 2021's only live UK event for the compressed air market, offering visitors a unique opportunity to network and reconnect with the sector's major players and industry bodies.</p>
     				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-blue mt-4">
     					<div>Find Out More</div>
     					<div>
@@ -49,7 +50,8 @@
     			
     			<div class="w-full md:w-1/2 lg:w-1/4 bg-gray-800 p-10 md:order-3 lg:order-4">
     				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Exhibit</h3> 
-    				<p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis doloremque illo eum soluta ducimus dicta laudantium consequatur, ipsum ad neque iure ut autem officia porro, quas, aut dolor. Sed, deleniti!</p>
+    				<p class="leading-relaxed">2021's only live UK event dedicated to the compressed air market, AirUser Live will provide the ideal opportunity for exhibitors to connect with a specially selected audience of business decision-makers.</p>
+                    <p class="leading-relaxed">The event will be extensively marketed to a highly relevant audience by the team behind Industrial Plant & Equipment magazine and the highly successful annual AirUser Guide. </p>
     				<a href="{{ $page->resourcePath('/why-exhibit') }}" class="btn btn-blue mt-10">
     					<div>Find Out More</div>
     					<div>
@@ -130,7 +132,7 @@
             </div>
         </section>
 
-       @include('_partials/sponsors')
+       @include('_partials/exhibitors')
 
         <section class="relative bg-blue-500 bg-no-repeat bg-center lg:bg-left bg-contain text-white">      
             <div class="hidden md:block absolute top-0 left-0 h-full w-1/2 bg-cover bg-center register-home"></div>

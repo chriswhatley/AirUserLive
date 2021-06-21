@@ -25,7 +25,7 @@
 					</div>
 					<div class="w-1/2">
 						<p class="leading-relaxed">
-							10th June 2021<br />
+							1st December 2021<br />
 							09:00 - 17:00
 						</p>
 					</div>

@@ -20,7 +20,7 @@
                             <span class="block md:-mt-2 lg:-mt-1 text-4xl md:text-5xl lg:text-6xl tracking-tighter">Air User Live</span>                           
                         </h1>
                         <p class="mb-4 text-md md:text-lg font-semibold leading-relaxed tracking-tight">
-                            10th June 2021 - Ricoh Arena, Coventry
+                           1st December 2021 - Ricoh Arena, Coventry
                         </p>
                         <div class="flex justify-center">
                             <a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-blue mr-1">

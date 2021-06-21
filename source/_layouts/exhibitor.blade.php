@@ -33,7 +33,10 @@
 
             <div class="w-full mt-6 md:mt-4 md:w-1/3 order-1 md:order-2">
             	<div class="p-6 bg-gray-800 rounded text-white">
-            		<div class="text-2xl font-bold uppercase">Stand No : {{ $page->stand_number }}</div>
+            		@if($page->partner_status)
+                        <div class="text-2xl font-bold uppercase">{{ $page->partner_status }}</div>
+                    @endif
+                    
                     <div class="mt-3">
                         <span class="block text-sm font-bold uppercase">{{ $page->name }}</span>
                     </div>

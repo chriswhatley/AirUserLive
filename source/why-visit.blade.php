@@ -12,15 +12,22 @@
 
     		<div class="md:w-1/2 md:pr-10">  
 				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Visiting Air User Live</h2> 
-    			<p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus excepturi iste quo cum soluta! Qui doloribus modi deserunt velit, aliquam id voluptatem quo dicta optio sit. Modi ipsa ipsum illum.</p>
+    			<p class="leading-relaxed">
+    				While the past year has seen us all embrace digital communication, there's nothing quite like live face-to-face events. AirUser Live will be the 2021's only live UK event for the compressed air market, offering visitors a unique opportunity to network and reconnect with the sector's major players and industry bodies.
+    			</p>
 				
 				<div class="bg-gray-800 mt-4 p-6  font-semibold text-md uppercase text-center text-white rounded">
 					<span class="block text-2xl">Save the date</span>
-					<span class="block mt-3 text-md">10th June, 2021 at the Ricoh Arena - Coventry</span>
+					<span class="block mt-3 text-md">1st December, 2021 at the Ricoh Arena - Coventry</span>
 				</div>
 				
-				<p class="mt-4 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, labore ea quam iusto ab, enim soluta velit distinctio eos iure vero culpa. Minus, obcaecati, nam aspernatur velit alias distinctio at.</p>
-				<p class="mt-4 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ad laborum cupiditate dolorum enim, cumque nobis repellendus error.</p>
+				<p class="mt-4 leading-relaxed">
+					As well as a comprehensive seminar programme including keynote sessions from the British Compressed Air Society and the British Compressed Gases Association, the event will feature a tabletop exhibition, giving visitors the opportunity to discover all the latest products and services under one roof.
+				</p>
+				<p class="mt-4 leading-relaxed">
+					Free-to-attend, AirUser Live will be held at the Ricoh Arena, Coventry. Located in the heart of the country, a stone's throw from Birmingham, Coventry's accessibility is second to none, offering easy links to London and International airports.
+				</p>
+
 				<div class="mt-6">
                 	<a href="{{ $page->registrationURL }}" target="_blank" class="btn btn-blue">
                         <div>Register Now</div>

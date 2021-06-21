@@ -3,6 +3,7 @@
 @import "tailwindcss/components";
 
 @import "custom";
+@import "swiper/swiper-bundle";
 
 @import "debugging";
 

@@ -206,7 +206,7 @@
                     Western Business Media Limited 2020 All Rights Reserved
                 </div>                    
                 <div class="w-full lg:text-right">
-                    <a href="{{ $page->resourcePath('/terms') }}" class="footer-link text-sm">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="{{ $page->resourcePath('/privacy') }}" class="footer-link">Privacy &amp; Cookie Policy</a>
+                     <a href="{{ $page->resourcePath('/privacy') }}" class="footer-link">Privacy &amp; Cookie Policy</a>
                 </div>                        
             </div>
         </div> 
@@ -214,4 +214,5 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+{{-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> --}}
 <script src="{{ $page->resourcePath('/assets/js/main.js') }}"></script>

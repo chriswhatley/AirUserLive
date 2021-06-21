@@ -9,7 +9,7 @@
 						<h3 class="pb-4 text-md md:text-lg font-bold leading-tight uppercase tracking-tight">Discover new technologies to revamp operations for a challenging future</h3>
 					</div>
 					<a href="{{ $page->resourcePath('/exhibitors') }}" class="btn btn-blue">
-                        <div>Exhibitor List</div>
+                        <div>Exhibitors</div>
                         <div>
                             <svg class="fill-current text-white inline-block h-6 w-4">
                                 <path class="heroicon-ui" d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/>
