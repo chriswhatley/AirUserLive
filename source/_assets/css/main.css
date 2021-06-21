@@ -5,6 +5,6 @@
 @import "custom";
 @import "swiper/swiper-bundle";
 
-@import "debugging";
+/*@import "debugging";*/
 
 @import "tailwindcss/utilities";
