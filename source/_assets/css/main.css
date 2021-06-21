@@ -3,7 +3,10 @@
 @import "tailwindcss/components";
 
 @import "custom";
+
+/*! purgecss start ignore */
 @import "swiper/swiper-bundle";
+/*! purgecss end ignore */
 
 /*@import "debugging";*/
 

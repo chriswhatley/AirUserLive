@@ -1004,6 +1004,8 @@ p {
   margin-bottom: 1rem
 }
 
+/*! purgecss start ignore */
+
 /**
  * Swiper 6.7.0
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -1674,6 +1676,8 @@ button.swiper-pagination-bullet {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+/*! purgecss end ignore */
 
 /*@import "debugging";*/
 
