@@ -3,6 +3,7 @@ extends: _layouts.exhibitor
 section: profile_content
 name: HiLine Industries
 partner_status: Conference Programme Sponsor
+sort_order: 2
 address: Hi-line Industries Ltd, 5 Crown Industrial Estate, Oxford Street, Burton-Upon-Trent, Staffordshire, DE14 3PG
 website: http://www.hilineindustries.com
 description: Hi-line industries are renowned in the compressed air industry as innovative designers and manufacturers of energy efficient air treatment products.  Focus is centred on “cost of ownership” over a long and reliable energy efficient life time. 

@@ -3,6 +3,7 @@ extends: _layouts.exhibitor
 section: profile_content
 name: Beko Technologies
 partner_status: Headline Sponsor
+sort_order: 1
 address: Beko Technologies Ltd, Unit 11-12 Moons Park, Burnt Meadow Road, North Moons Moat, Redditch, Worcestershire, B98 9PA
 website: https://www.beko-technologies.com/en-gb/gb/
 description: BEKO TECHNOLOGIES develops, manufactures and sells components and systems worldwide for an optimised compressed air quality. With an extensive program the company stands for compressed air technology "at its best"​.

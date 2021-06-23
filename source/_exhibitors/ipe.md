@@ -3,6 +3,7 @@ extends: _layouts.exhibitor
 section: profile_content
 name: Industrial, Plant & Equipment
 partner_status: Supporter
+sort_order: 4
 address: Western Business Media, Dorset House, 64 High Street, East Grinstead, West Sussex, RH19 3DE.
 website: http://www.ipesearch.com
 description: IP&E is the leading UK product magazine and web resource in its market and essential reading for anyone who needs to stay up-to-date with the latest innovations, practices and opinions relating to industrial efficiency.

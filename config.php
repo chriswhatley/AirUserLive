@@ -18,7 +18,7 @@ return [
     'collections' => [
         'exhibitors' => [
             'exhibitor' => 'Exhibitor Name', // Default exhibitor name, if not provided in an exhibitor profile
-            'sort' => 'name',
+            'sort' => 'sort_order',
             'path' => 'exhibitors/{filename}',
         ],
         'seminars' => [

@@ -1,4 +1,4 @@
-@extends('_layouts.home', ['nav_selector' => false, 'meta_title' => 'Air User Live - 1st December 2021 - Ricoh Arena, Coventry', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.' ])
+@extends('_layouts.home', ['nav_selector' => false, 'meta_title' => 'AirUser Live - 1st December 2021 - Ricoh Arena, Coventry', 'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.' ])
 
 @section('content')
 

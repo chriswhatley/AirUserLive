@@ -1,4 +1,4 @@
-@extends('_layouts.master', ["page_title" => "Our Exibitors", "nav_selector" => "exhibit", 'meta_title' => 'Sponsors of AirUser Live', 'meta_description' => 'Don\'t miss this opportunity to present your brand & products to end-users professionals who are looking to explore the key issues around air-powered systems.'])
+@extends('_layouts.master', ["page_title" => "Our Sponsors", "nav_selector" => "exhibit", 'meta_title' => 'Sponsors of AirUser Live', 'meta_description' => 'Don\'t miss this opportunity to present your brand & products to end-users professionals who are looking to explore the key issues around air-powered systems.'])
 
 @section('content')
 	

@@ -3,6 +3,7 @@ extends: _layouts.exhibitor
 section: profile_content
 name: British Compressed Air Society
 partner_status: Supporter
+sort_order: 3
 address: British Compressed Air Society Ltd. \33/34 Devonshire Street, London, W1G 6PY
 website: https://www.bcas.org.uk/
 description: In a world of constantly changing legislation and standards, BCAS plays a crucial role in driving progress in the compressed air industry.
