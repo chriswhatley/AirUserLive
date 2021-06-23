@@ -8,7 +8,7 @@
             <div class="container mx-auto px-10">
                 <div class="py-12 w-full lg:w-1/2 lg:pr-12">                                                                                          
                     <h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">
-	                    About <br /> Air User Live
+	                    About <br /> AirUser Live
 	                </h2>                        
                     <p class="leading-relaxed">The AirUser Live Conference has been launched to provide exclusive access to the latest industry updates and to help tackle the concern of the end user Air Powered systems professional.</p>
                     <div class="mt-6">
@@ -36,7 +36,7 @@
     				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Visit</h3> 
                     <p class="leading-relaxed">While the past year has seen us all embrace digital communication, there's nothing quite like live face-to-face events.</p>
                     <p class="leading-relaxed">AirUser Live will be the 2021's only live UK event for the compressed air market, offering visitors a unique opportunity to network and reconnect with the sector's major players and industry bodies.</p>
-    				<a href="{{ $page->resourcePath('/why-visit') }}" class="btn btn-blue mt-4">
+    				<a href="/why-visit" class="btn btn-blue mt-4">
     					<div>Find Out More</div>
     					<div>
     						<svg class="fill-current text-white inline-block h-6 w-4">
@@ -52,7 +52,7 @@
     				<h3 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Why Exhibit</h3> 
     				<p class="leading-relaxed">2021's only live UK event dedicated to the compressed air market, AirUser Live will provide the ideal opportunity for exhibitors to connect with a specially selected audience of business decision-makers.</p>
                     <p class="leading-relaxed">The event will be extensively marketed to a highly relevant audience by the team behind Industrial Plant & Equipment magazine and the highly successful annual AirUser Guide. </p>
-    				<a href="{{ $page->resourcePath('/why-exhibit') }}" class="btn btn-blue mt-10">
+    				<a href="/why-exhibit" class="btn btn-blue mt-10">
     					<div>Find Out More</div>
     					<div>
     						<svg class="fill-current text-white inline-block h-6 w-4">
@@ -68,15 +68,15 @@
         <section class="text-white bg-gray-900 bg-bottom bg-cover xl:bg-fixed feature-home">  
    
             <div class="flex py-12 flex-row flex-col items-center">
-                <h2 class="text-center text-2xl md:text-5xl uppercase font-semibold leading-tight tracking-tight mb-2 font-medium"><span class="text-blue-500">Air User</span> Live</h2>
-                <p class="w-full text-center leading-relaxed font-semibold uppercase">10<span class="text-xs lowercase">th</span> June 2021 <br class="block md:hidden"> <span class="hidden md:inline-block"> | </span> Ricoh Arena, Coventry</p>
+                <h2 class="text-center text-2xl md:text-5xl uppercase font-semibold leading-tight tracking-tight mb-2 font-medium"><span class="text-blue-500">AirUser</span> Live</h2>
+                <p class="w-full text-center leading-relaxed font-semibold uppercase">1<span class="text-xs lowercase">st</span> December 2021 <br class="block md:hidden"> <span class="hidden md:inline-block"> | </span> Ricoh Arena, Coventry</p>
 
                 <div class="flex flex-wrap w-full md:w-auto">
 
                     <div class="w-1/3 px-3 md:px-10">
                         <div class="w-full py-6 md:flex md:mx-auto items-center">
                             <div class="inline-block w-full md:w-20 lg:w-24">
-                                 <img src="{{ $page->resourcePath('/assets/img/icons/user-feature-icon.svg') }}" data-src="{{ $page->resourcePath('/assets/img/icons/user-feature-icon.svg') }}" class="w-12 mx-auto md:w-20 lg:w-24 lazyload" alt="User Icon" />
+                                 <img src="/assets/img/icons/user-feature-icon.svg" data-src="/assets/img/icons/user-feature-icon.svg" class="w-12 mx-auto md:w-20 lg:w-24 lazyload" alt="User Icon" />
                             </div>
                             <div class="flex flex-col mt-1 md:ml-2 text-white tracking-tight font-semibold uppercase">
                                 <div class="w-full text-center leading-tight text-sm">
@@ -91,7 +91,7 @@
                     <div class="w-1/3 px-3 md:px-10">
                         <div class="w-full py-6 md:flex md:mx-auto items-center">
                             <div class="inline-block w-full md:w-20 lg:w-24">
-                                 <img src="{{ $page->resourcePath('/assets/img/icons/clock-feature-icon.svg') }}" data-src="{{ $page->resourcePath('/assets/img/icons/clock-feature-icon.svg') }}" class="w-12 mx-auto md:w-20 lazyload" alt="CLock Icon" />
+                                 <img src="/assets/img/icons/clock-feature-icon.svg" data-src="/assets/img/icons/clock-feature-icon.svg" class="w-12 mx-auto md:w-20 lazyload" alt="CLock Icon" />
                             </div>
                             <div class="flex flex-col mt-1 md:ml-2 text-white tracking-tight font-semibold uppercase">
                                 <div class="w-full text-center leading-tight text-sm">
@@ -105,7 +105,7 @@
                     <div class="w-1/3 px-3 md:px-10">
                         <div class="w-full py-6 md:flex md:mx-auto items-center">
                             <div class="inline-block w-full md:w-20 lg:w-24 mx-auto">
-                                 <img src="{{ $page->resourcePath('/assets/img/icons/education-feature-icon.svg') }}" data-src="{{ $page->resourcePath('/assets/img/icons/education-feature-icon.svg') }}" class="w-12 mx-auto md:w-20 lazyload" alt="Education Icon" />
+                                 <img src="/assets/img/icons/education-feature-icon.svg" data-src="/assets/img/icons/education-feature-icon.svg" class="w-12 mx-auto md:w-20 lazyload" alt="Education Icon" />
                             </div>
                             <div class="flex flex-col mt-1 md:ml-1 text-white tracking-tight font-semibold uppercase">
                                 <div class="w-full text-center leading-tight text-sm">
@@ -144,7 +144,7 @@
 	                </h2>                        
                     <p class="leading-relaxed">AirUser Live, with its carefully curated seminar programme will bring together experts in the field, companies at the forefront of product and technological developments,and a select audience of attendees to inform, educate, debate and network.</p>
                     <div class="mt-6">
-                    	<a href="https://www.eventbrite.co.uk/e/90942221633" class="btn btn-gray" target="_blank" rel="noopener">
+                    	<a href="{{ $page->registrationURL }}" class="btn btn-gray" target="_blank" rel="noopener">
                             <div>Register now</div>
                             <div>
                                 <svg class="fill-current text-white inline-block h-6 w-4">

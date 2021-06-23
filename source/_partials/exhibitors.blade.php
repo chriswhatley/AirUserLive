@@ -18,9 +18,9 @@
 
                         <div class="bg-white rounded-md object-cover object-center overflow-hidden">
                             <picture>
-                                <source srcset="{{ $page->resourcePath('/assets/img/exhibitors/'. $exhibitor->logo) }}-thumb.webp" type="image/webp">
-                                <source srcset="{{ $page->resourcePath('/assets/img/exhibitors/'. $exhibitor->logo) }}-thumb.png" type="image/png"> 
-                                <img src="{{ $page->resourcePath('/assets/img/exhibitors/'. $exhibitor->logo) }}-thumb.png" alt="{{ $page->name }}" class="mx-auto">
+                                <source srcset="{{ '/assets/img/exhibitors/'. $exhibitor->logo }}-thumb.webp" type="image/webp">
+                                <source srcset="{{ '/assets/img/exhibitors/'. $exhibitor->logo }}-thumb.png" type="image/png"> 
+                                <img src="{{ '/assets/img/exhibitors/'. $exhibitor->logo }}-thumb.png" alt="{{ $page->name }}" class="mx-auto">
                             </picture>
                         </div>
 

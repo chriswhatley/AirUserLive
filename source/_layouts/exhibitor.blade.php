@@ -2,7 +2,7 @@
     [
         'page_title' => "$page->name",
         'nav_selector' => 'visit',
-        'meta_title' => "Air User Live Exhibitor : $page->name",
+        'meta_title' => "AirUser Live Exhibitor : $page->name",
         'meta_description' => "$page->description"
     ]
 )
@@ -13,7 +13,7 @@
         <div class="flex flex-wrap py-6 md:py-10 px-4">
 
             <div>
-                <a class="text-xs uppercase" href="{{ $page->resourcePath('/exhibitors') }}" title="Return to exhibitor list">
+                <a class="text-xs uppercase" href="/exhibitors" title="Return to exhibitor list">
                     <svg class="transform rotate-180 fill-current inline-block h-5 w-4">
                         <path class="heroicon-ui" d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/>
                     </svg>
@@ -24,9 +24,9 @@
             @if ($page->logo)
 	            <div class="w-full mt-6 h-32">
                     <picture>
-                        <source srcset="{{ $page->resourcePath('/assets/img/exhibitors/'. $page->logo) }}.webp" type="image/webp">
-                        <source srcset="{{ $page->resourcePath('/assets/img/exhibitors/'. $page->logo) }}.png" type="image/png"> 
-                        <img src="{{ $page->resourcePath('/assets/img/exhibitors/'. $page->logo) }}.png" alt="{{ $page->name }}" class="mx-auto mb-2 max-h-full max-w-xs md:mx-0">
+                        <source srcset="{{ '/assets/img/exhibitors/'. $page->logo }}.webp" type="image/webp">
+                        <source srcset="{{ '/assets/img/exhibitors/'. $page->logo }}.png" type="image/png"> 
+                        <img src="{{ '/assets/img/exhibitors/'. $page->logo }}.png" alt="{{ $page->name }}" class="mx-auto mb-2 max-h-full max-w-xs md:mx-0">
                     </picture>	   
 	            </div>
             @endif

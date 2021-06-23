@@ -1,7 +1,7 @@
 <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row">
     <div class="p-2 flex flex-row items-center justify-between">
-        <a href="{{ $page->baseUrl }}" class="">
-            <img class="pt-4 h-auto w-56 lg:w-72" src="{{ $page->resourcePath('/assets/img/layout/air-user-live-2021-logo.svg') }}" alt="{{ $page->siteName }}">
+        <a href="/" class="">
+            <img class="pt-4 h-auto w-56 lg:w-72" src="/assets/img/layout/air-user-live-2021-logo.svg" alt="{{ $page->siteName }}">
         </a>
         <button aria-label="Small screen navigation" class="md:hidden rounded-lg focus:outline-none focus:shadow-outline-none" @click="open = !open">
             <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -32,10 +32,10 @@
                 </button>
                 <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 z-40 origin-top-right rounded-md shadow-lg md:w-48">
                     <div class="px-2 py-2 bg-white rounded-md shadow text-gray-900">
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/why-visit') }}">Why Visit</a>
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/faq') }}">FAQs</a>
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/exhibitors') }}">Exhibitor List</a>
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/contact') }}">Contact</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/why-visit">Why Visit</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/faq">FAQs</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/exhibitors">Exhibitor List</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -48,15 +48,15 @@
                 </button>
                 <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 z-40 origin-top-right rounded-md shadow-lg md:w-48">
                     <div class="px-2 py-2 bg-white rounded-md shadow text-gray-900">
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/why-exhibit') }}">Why Exhibit</a>
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/exhibitors') }}">Exhibitor List</a>
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/sponsors') }}">Our Sponsors</a>
-                        <a class="nav-dropdown-item md:mt-0" href="{{ $page->resourcePath('/contact') }}">Contact</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/why-exhibit">Why Exhibit</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/exhibitors">Exhibitor List</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/sponsors">Our Sponsors</a>
+                        <a class="nav-dropdown-item md:mt-0" href="/contact">Contact</a>
                     </div>
                 </div>
             </div>  
 
-            <a class="nav-item md:mt-0 md:ml-4 {{ isSet($nav_selector) && $nav_selector == 'seminars' ? 'selected' : '' }}" href="{{ $page->resourcePath('/seminars') }}">Seminars</a>
+            <a class="nav-item md:mt-0 md:ml-4 {{ isSet($nav_selector) && $nav_selector == 'seminars' ? 'selected' : '' }}" href="/seminars">Seminars</a>
             <a class="nav-item md:mt-0 md:ml-4" href="{{ $page->registrationURL }}" target="_blank" rel="noopener">Register</a> 
         </nav>
     {{-- </div> --}}

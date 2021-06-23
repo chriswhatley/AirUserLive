@@ -7,7 +7,7 @@
 
     		<div class="w-full">				
 		
-				<p>Western Business Media Ltd. are the organiser of "Air User Live", "The Tomorrow's Warehouse Event" and “The Safety &amp; Health Excellence Awards.” They are also the publisher of “Industrial Plant & Equipment”, “Controls, Drives & Automation”, “Health & Safety Matters”, “Cleaning Matters”, “Fire Safety Matters”, "Security Matters" and “Handling & Storage Solutions”.</p>
+				<p>Western Business Media Ltd. are the organiser of "AirUser Live", "The Tomorrow's Warehouse Event", "THe Fire & Security Matters Awards" and “The Safety &amp; Health Excellence Awards.” They are also the publisher of “Industrial Plant & Equipment”, “Controls, Drives & Automation”, “Health & Safety Matters”, “Cleaning Matters”, “Fire Safety Matters”, "Security Matters" and “Handling & Storage Solutions”.</p>
 				<p>This privacy policy explains how we use any personal information we collect about you when you register for one of our events and/or magazines.</p>
 
 				<h4>What information do we collect about you?</h4>

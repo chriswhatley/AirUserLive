@@ -17,7 +17,7 @@ SwiperJS (https://swiperjs.com/)
 
 Modernizr (https://modernizr.com/)
 
-PurgeCSS (https://github.com/FullHuman/postcss-purgecss)
+PurgeCSS  (https://github.com/FullHuman/postcss-purgecss)
 
 GitHub (https://github.com/)
 

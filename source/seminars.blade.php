@@ -1,4 +1,4 @@
-@extends('_layouts.master', ['page_title' => 'Seminars', 'nav_selector' => 'seminars', 'meta_title' => 'Tomorrow\'s Warehouse Seminar Programme', 'meta_description' => 'In just a single day, the Tomorrow\'s Warehouse seminar programme will cover key topics of interest, including: automation, the future of storage, robotics and the future of the forklift.'])
+@extends('_layouts.master', ['page_title' => 'Seminars', 'nav_selector' => 'seminars', 'meta_title' => 'AirUser Live Seminar Programme', 'meta_description' => 'In just a single day, the AirUSer Live seminar programme will cover key topics of interest, including: compressed air best practise, design & installtion of compressed air systems and round-table panel discussions with Q&A from the audience.'])
 
 @section('content')
 

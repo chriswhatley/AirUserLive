@@ -1,4 +1,4 @@
-@extends('_layouts.master', ["page_title" => "Why Exhibit", "nav_selector" => "exhibit", 'meta_title' => 'Why exhibit at Tomorrow\'s Warehouse', 'meta_description' => 'Guarantee your exhibitor/sponsor presence at the Tomorrow`s Warehouse Event and secure your company`s opportunity to engage with Warehouse, Logistics, Distribution, Operations, Production & Facilities Managers & Directors, together with Buyers and Health & Safety professionals looking to make informed decisions for their logistical processes.'])
+@extends('_layouts.master', ["page_title" => "Why Exhibit", "nav_selector" => "exhibit", 'meta_title' => 'Why exhibit at AirUser Live', 'meta_description' => '2021\'s only live UK event dedicated to the compressed air market, AirUser Live will provide the ideal opportunity for exhibitors to connect with a specially selected audience of business decision-makers.'])
 
 @section('content')
 	
@@ -6,7 +6,7 @@
     	<div class="flex flex-wrap py-6 md:py-10 px-5 md:px-12">
 
     		<div class="w-full md:w-1/2 pr-10">
-				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Exhibiting at Air User Live</h2>
+				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Exhibiting at AirUser Live</h2>
     			<p class="leading-relaxed">
     				2021's only live UK event dedicated to the compressed air market, AirUser Live will provide the ideal opportunity for exhibitors to connect with a specially selected audience of business decision-makers.
     			</p>
@@ -20,7 +20,7 @@
 					For exhibitors investing in one of the comprehensive sponsorship packages, there is also the opportunity to present as part of the seminar programme and put forward a representative to speak on the roundtable panel.
 				</p>
 				<div class="mt-6">
-                	<a href="{{ $page->resourcePath('/contact') }}" class="btn btn-blue">
+                	<a href="/contact" class="btn btn-blue">
                         <div>Contact the sales team</div>
                         <div>
                             <svg class="fill-current text-white inline-block h-6 w-4">

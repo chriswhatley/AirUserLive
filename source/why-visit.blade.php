@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Why Visit', 
 	'nav_selector' => 'visit', 
-	'meta_title' => 'Why Visit Air User Live', 
+	'meta_title' => 'Why Visit AirUser Live', 
 	'meta_description' => 'Brought to you by the team behind IPE and publishers of the highly regarded annual AirUser Guide, AirUser Live is a FREE-TO-ATTEND one day conference aimed at end user air power professionals.',
 	'partial' => 'parallax-visit'])
 
@@ -11,7 +11,7 @@
     	<div class="flex flex-wrap py-6 md:py-10 px-5">
 
     		<div class="md:w-1/2 md:pr-10">  
-				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Visiting Air User Live</h2> 
+				<h2 class="pb-4 text-xl md:text-2xl font-bold leading-tight uppercase tracking-tight">Visiting AirUser Live</h2> 
     			<p class="leading-relaxed">
     				While the past year has seen us all embrace digital communication, there's nothing quite like live face-to-face events. AirUser Live will be the 2021's only live UK event for the compressed air market, offering visitors a unique opportunity to network and reconnect with the sector's major players and industry bodies.
     			</p>
