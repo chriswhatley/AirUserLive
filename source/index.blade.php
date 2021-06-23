@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="mt-4">
-                    <a href="{{ $page->registrationURL }}" class="btn btn-blue" rel="noopener">
+                    <a href="{{ $page->registrationURL }}" class="btn btn-blue" rel="noopener" target="_blank">
                         <div>Register Now</div>
                         <div>
                             <svg class="fill-current text-white inline-block h-6 w-4">

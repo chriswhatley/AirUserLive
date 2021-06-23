@@ -8,7 +8,7 @@
 					<div class="mb-4 flex-1">
 						<h3 class="pb-4 text-md md:text-lg font-bold leading-tight uppercase tracking-tight">Discover new technologies to revamp operations for a challenging future</h3>
 					</div>
-					<a href="exhibitors" class="btn btn-blue">
+					<a href="/exhibitors" class="btn btn-blue">
                         <div>Exhibitors</div>
                         <div>
                             <svg class="fill-current text-white inline-block h-6 w-4">
@@ -27,7 +27,7 @@
 					<div class="mb-4 flex-1">
 						<h3 class="pb-4 text-md md:text-lg font-bold leading-tight uppercase tracking-tight">Debate and discuss the issues you are facing</h3>
 					</div>
-					<a href="/seminars'" class="btn btn-blue">
+					<a href="/seminars" class="btn btn-blue">
                         <div>Seminars</div>
                         <div>
                             <svg class="fill-current text-white inline-block h-6 w-4">
